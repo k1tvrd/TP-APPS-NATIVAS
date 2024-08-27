@@ -1,0 +1,253 @@
+/* ESTILO DE INDEX.HTML */
+
+head{
+    font-size: xx-small;
+}
+
+header{
+    margin:0;
+    padding: 5px 10px;
+    font-size: medium;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+    .p-header{
+        color: rgb(155, 83, 47);
+        font-weight: bold;
+    }
+       
+    .s-header{
+        color: azure;
+        font-weight: bolder;
+    }
+
+img {
+    width: 70px;
+}
+
+.index-body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /*los items puedan ser movidos libremente*/
+    background-image:url(./img/f1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.index-main{
+    margin: 0;
+    padding: 20px 60px;
+    width: 800px;
+    gap: 10px;
+    flex-direction: column;
+}
+
+    .index-h1{
+        color: white;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .info {
+        margin-left: -250px; /*hace que h2, h3 y h4 esten a la izquierda*/
+        display: flex;
+        flex-direction: column;
+        align-items: center; /*hace que h2, h3 y h4 esten centrados entre si*/
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+    }
+
+    h2{
+        margin-top: 8px;
+        margin-bottom: 5px;
+        font-size: x-large;
+    }
+
+    h3{
+        margin: 0;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 8px;  
+        background-color: rgb(128, 59, 13);
+        border-radius: 3px;
+        font-size: x-large;
+    }
+
+    h4{
+        margin-top: 5px;
+        margin-bottom: 8px;
+        font-size: x-large;
+    }
+
+    .s-main {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        margin-left: -250px;
+        padding: 0px 295px; /* define el espacio entre cada boton */
+        display: flex; 
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: large;
+    }
+
+    .sin-funcionalidad {
+        margin: 0px;
+        padding: 3px;
+        border-radius: 5px;
+        border: 1px solid rgb(180, 87, 25);
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: x-large;
+        text-decoration: none;
+        white-space: nowrap; /*para que no se divida en dos lineas el texto al apoyar el cursor sobre el */ 
+    }
+
+        .sin-funcionalidad:hover {
+            border: 2px solid rgb(180, 87, 25);
+            font-weight: bold;
+        }
+
+    .button{
+        margin-bottom: 10px;
+        margin-bottom: 10px;
+        margin-left: 170px;
+        padding: 5px;
+        border-radius: 1px;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: xx-large;
+        background-color: rgba(255, 255, 255, 0.2);
+        text-decoration: none;
+    }
+
+        .button:hover {
+            border: 2px;
+            border: 1px solid white;
+            text-decoration: underline;
+        }
+
+    .infocontacto{
+        margin-top: 40px;
+        color: aliceblue;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .p{
+        margin-top: 3px;
+        margin-bottom: 3px; 
+    }
+
+
+footer {
+    background-color: rgb(221, 221, 221);
+}
+.index-footer{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0px 10px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+}
+
+    /* ESTILO DE INSCRIPCION.HTML */
+
+    .insc-body{
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start; /*los items puedan ser movidos libremente*/
+        background-image:url(./img/f3.avif);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .insc-main{
+        margin: 0 auto; /* auto: centra el contenedor horizontalmente en su contenedor padre */
+        padding: 5px 60px;
+        width: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;    
+    }
+
+    .insc-h1{
+        color: white;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .datos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: x-large;
+    }
+    
+    .datos label {
+        margin-bottom: 2px; /* espacio debajo del label */
+    }
+    
+    .datos input {
+        margin-bottom: 20px; /* espacio debajo del input */
+        padding: 8px;
+        width: 90%;
+        max-width: 200px;
+    }
+    
+    .boton-inscripcion {
+        margin: 0;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 8px;  
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 3px;
+        color: white;
+        font-size: x-large;
+        text-decoration: none;
+    }
+
+    .boton-inscripcion:hover {
+        border: 2px;
+        border: 1px solid white;
+        text-decoration: underline;
+    }
+
+    p {
+        margin-top: 20px;
+        color: azure;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: large;
+    }
+    
+    .msj {
+        display: none;  
+    }
+
+.content {
+    flex: 1; /* permite que el contenido ocupe el espacio disponible */
+}
+
+.insc-footer{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0px 10px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+}
+
+
